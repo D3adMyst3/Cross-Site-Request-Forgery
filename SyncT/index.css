@@ -1,0 +1,42 @@
+body {
+    background: rgb(3, 3, 3);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(8, 8, 8), rgb(10, 10, 10));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(7, 7, 8), rgb(8, 8, 8));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Roboto', sans-serif;
+}
+.main {
+
+    background-color: rgba(27, 27, 27, 0);
+    width: 600px;
+    height: 400px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    -webkit-box-shadow: 39px 11px 25px 0px rgba(0,0,0,0.15);
+-moz-box-shadow: 39px 11px 25px 0px rgba(0,0,0,0.15);
+box-shadow: 39px 11px 25px 0px rgba(0,0,0,0.15);
+}
+.button {
+    background-color: rgba(76, 116, 175, 0.322);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    width: 50%;
+
+  }
+
+  .button:hover {
+    background-color: #555555;
+    color: white;
+  }
